@@ -30,10 +30,10 @@ app:
     idem-potence: true
   use-trust-store: false
   truststore:
-    location: classpath:/strimzi-devtest-transrep-truststore.jks
+    location: classpath:/trust-store.jks
     password: S
   keystore:
-    location: classpath:/strimzi-super-user-keystore.jks
+    location: classpath:/user-keystore.jks
     password: S
   key:
     password: j
